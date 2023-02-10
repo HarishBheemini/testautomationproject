@@ -1,0 +1,4 @@
+com\auto\qa\tests\ProductDetailsPageTests.class
+com\auto\qa\tests\HomePageTests.class
+com\auto\qa\tests\SearchPageTests.class
+com\auto\qa\tests\LoginPageTests.class

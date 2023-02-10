@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test automation suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Automation Tests(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.auto.qa.tests.LoginPageTests">
+        <methods>
+          <include name="groupTest2"/>
+          <include name="groupTest"/>
+        </methods>
+      </class> <!-- com.auto.qa.tests.LoginPageTests -->
+    </classes>
+  </test> <!-- Automation Tests(failed) -->
+</suite> <!-- Failed suite [Test automation suite] -->
